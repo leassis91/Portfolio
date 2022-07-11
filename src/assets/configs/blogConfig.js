@@ -2,6 +2,7 @@ import React from 'react'
 import {AiFillGithub} from "react-icons/ai";
 import {SiMedium} from "react-icons/si";
 import fastapiSklearn from "../images/fastapi_sklearn.png"
+import underscore from "../images/underscore.jpg"
 
 const blogConfig = [
     // {
@@ -128,7 +129,7 @@ const blogConfig = [
                 icon: <SiMedium/>
             }
         ],
-        image: "https://miro.medium.com/max/700/0*kDjtDxen7NYjuk6-.jpg",
+        image: underscore,
         description: "Learn and discover the different uses behind this character",
         target: "_blank"
     }
