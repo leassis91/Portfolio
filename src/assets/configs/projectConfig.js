@@ -2,7 +2,8 @@ import {BiGitRepoForked} from "react-icons/bi";
 import {AiFillGithub, AiFillEye} from "react-icons/ai";
 import {ImBook} from "react-icons/im";
 import {MdRealEstateAgent} from "react-icons/md"
-import {FaTelegramPlane} from "react-icons/fa";
+import {FaTelegramPlane, FaKaggle} from "react-icons/fa";
+import {SiTableau} from "react-icons/si"
 
 import sklearnGenetic from "../images/sklearn_genetic_opt.png"
 import kafkaMl from "../images/kafkaml.png"
@@ -13,6 +14,8 @@ import road_safety from "../images/road_safety.png"
 import rossmann from "../images/rossmann.jpg"
 import hackday from "../images/hackday.png"
 import housesale from "../images/housesale.jpg"
+import mcars from "../images/mcars.jpg"
+import tableaulk from "../images/tableaulk.png"
 
 
 
@@ -48,6 +51,64 @@ const projectConfig = [
     //     description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
     //     target: "_blank"
     // },
+    {
+        id: "project-5",
+        title: "Hackday 2nd Edition",
+        links: [
+            {
+                name: "repo",
+                url: "https://github.com/leassis91/mobilitycars/",
+                icon: <AiFillGithub/>
+            },
+            {
+                name: "fork",
+                url: "https://github.com/leassis91/mobilitycars/fork",
+                icon: <BiGitRepoForked/>
+            },
+            {
+                name: "subscription",
+                url: "https://github.com/leassis91/mobilitycars/subscription",
+                icon: <AiFillEye/>
+            },
+            {
+                name: "kaggle-comp",
+                url: "https://www.kaggle.com/competitions/mobilitycars/overview",
+                icon: <FaKaggle/>
+            }
+        ],
+        image: mcars,
+        description: "It's Hackathon again! #Hackday is a 2-day live competition held by Comunidade DS. The goal set for this one was to develop a regression model, based on the history of vehicle sales values practiced throughout Brazil. We now managed to finish in 2nd place!",
+        target: "_blank"
+    },
+    {
+        id: "project-4",
+        title: "LinkedIn Data Analysis",
+        links: [
+            {
+                name: "repo",
+                url: "https://public.tableau.com/app/profile/leandrodestefani/viz/LinkedInDataAnalysis_16608723114230/Dashboard1",
+                icon: <SiTableau/>
+            }
+            // {
+            //     name: "fork",
+            //     url: "https://github.com/leassis91/rossmann_store/fork",
+            //     icon: <BiGitRepoForked/>
+            // },
+            // {
+            //     name: "subscription",
+            //     url: "https://github.com/leassis91/rossmann_store/subscription",
+            //     icon: <AiFillEye/>
+            // },
+            // {
+            //     name: "",
+            //     url: "https://t.me/rossmannleassis_bot",
+            //     icon: <FaTelegramPlane/>
+            // }
+        ],
+        image: tableaulk,
+        description: "Visualization Project with Tableau. Brief analysis of my LinkedIn Profile Data, using some tools like Python (Pandas), MS Excel, Figma and, of course, Tableau.",
+        target: "_blank"
+    },
     {
         id: "project-3",
         title: "Rossmann Store Sales",
@@ -95,6 +156,11 @@ const projectConfig = [
                 name: "subscription",
                 url: "https://github.com/leassis91/hackday_ds/subscription",
                 icon: <AiFillEye/>
+            },
+            {
+                name: "kaggle-comp",
+                url: "https://www.kaggle.com/competitions/inclusao-financeira-na-africa",
+                icon: <FaKaggle/>
             }
         ],
         image: hackday,
@@ -112,12 +178,12 @@ const projectConfig = [
             },
             {
                 name: "fork",
-                url: "https://github.com/leassis91/Portfolio_Projects/blob/main/Insights_Projects/Accidents/fork",
+                url: "https://github.com/leassis91/Portfolio_Projects/blob/main/Insights_Projects/Accidents/",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/leassis91/Portfolio_Projects/blob/main/Insights_Projects/Accidents/subscription",
+                url: "https://github.com/leassis91/Portfolio_Projects/blob/main/Insights_Projects/Accidents/",
                 icon: <AiFillEye/>
             }
             // {
@@ -142,17 +208,17 @@ const projectConfig = [
             },
             {
                 name: "fork",
-                url: "https://github.com/leassis91/Portfolio_Projects/tree/main/Insights_Projects/HouseRocketEDA/fork",
+                url: "https://github.com/leassis91/HouseRocketApp/fork",
                 icon: <BiGitRepoForked/>
             },
             {
                 name: "subscription",
-                url: "https://github.com/leassis91/Portfolio_Projects/tree/main/Insights_Projects/HouseRocketEDA/subscription",
+                url: "https://github.com/leassis91/HouseRocketApp/subscription",
                 icon: <AiFillEye/>
             },
             {
                 name: "dashboard",
-                url: "https://leassis-houserocket.herokuapp.com/",
+                url: "https://leassis91-houserocketapp-dashboard-bxzs7g.streamlitapp.com/",
                 icon: <MdRealEstateAgent/>
             }
         ],
