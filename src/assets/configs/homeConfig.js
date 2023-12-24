@@ -7,6 +7,7 @@ import {GiMaterialsScience} from "react-icons/gi";
 import {GiOilPump} from "react-icons/gi";
 import {GiSoccerField} from "react-icons/gi"
 import {MdOutlineAnalytics} from "react-icons/md"
+import {BsBank} from "react-icons/bs"
 
 const homeConfig = {
 
@@ -17,12 +18,12 @@ const homeConfig = {
     titles: [
         "Data Scientist",
         "Data Analyst",
-        "Machine Learning Enthusiast",
-        // "Chemical Engineer",
-        // "Brazilian"
+        "Machine Learning Expert",
+        "AI Enthusiast",
+        "Brazilian"
     ],
     about: {
-        start: "Aspiring Data Scientist passionate about data. Currently looking forward to collaborate on real life projects, translating complex tasks into simple business solutions using data science concepts and tools on public data. " +
+        start: "A chemical engineer passionate about data. I'm a Data-driven thinker, seeking to leverage all sorts of machine learning models to build greater business strategies and customer products." +
             "Always excited by learning new things, contributing to the data science community" +
             " and spreading the word of data!",
         // exit: "I work with most various tools, like Python, SQL, Tableau and Machine Learning, " +
@@ -30,12 +31,22 @@ const homeConfig = {
     },
     workTimeline: [
         {
+            id: "work-5",
+            title: "Data Analyst",
+            company: "TAG-IMF",
+            description: "Conducted modeling of credit card financial data for MVP definitions, working through huge databases, building ETLs, data lakes and machine learning models.", // +
+                // "Main .",
+            date: "2023-present",
+            icon: <BsBank/>,
+            tags: ["sql", "gcp", "azure", "python", "looker", "dataproc", "git"]
+        },
+        {
             id: "work-4",
             title: "Data Scientist",
             company: "Comunidade DS",
             description: "Practicing all kind of Data Science related stuff, always focusing on developing end-to-end data science projects.", // +
                 // "Main .",
-            date: "2022-present",
+            date: "2022-2023",
             icon: <GiMaterialsScience/>,
             tags: ["python", "ml", "networking", "docker", "git", "github", "heroku"]
         },

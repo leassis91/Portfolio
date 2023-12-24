@@ -14,7 +14,7 @@ import {
     SiApacheairflow,
     SiApachekafka,
     SiPowerbi,
-
+    SiGooglecloud,
     SiSqlite,
     SiTableau,
     SiHeroku,
@@ -27,7 +27,9 @@ import {
     SiDatabricks,
     SiGit,
     SiStatamic,
-    SiTensorflow
+    SiTensorflow,
+    SiPytorch
+
 } from "react-icons/si";
 import {GiBeaver, GiRadialBalance, GiSwordsPower} from "react-icons/gi";
 import {GrMysql, GrTask} from "react-icons/gr";
@@ -51,12 +53,12 @@ const skillsConfig = {
             icon: <SiJupyter size={30}/>,
             text: "Jupyter"
         },
-        // {
-        //     id: "skills-2",
-        //     className: "skill-icon",
-        //     icon: <SiPlotly size={30}/>,
-        //     text: "Plotly"
-        // },
+        {
+            id: "skills-5",
+            className: "skill-icon",
+            icon: <SiGooglecloud size={30}/>,
+            text: "GCP"
+        },
         {
             id: "skills-3",
             className: "skill-icon",
@@ -66,14 +68,14 @@ const skillsConfig = {
         {
             id: "skills-4",
             className: "skill-icon",
-            icon: <SiGithub size={30}/>,
-            text: "Github"
+            icon: <SiMicrosoftazure size={30}/>,
+            text: "Azure"
         },
         {
             id: "skills-5",
             className: "skill-icon",
-            icon: <SiGitlab size={30}/>,
-            text: "Gitlab"
+            icon: <SiPostgresql size={30}/>,
+            text: "PostgreSQL"
         },
         {
             id: "skills-5",
@@ -82,10 +84,10 @@ const skillsConfig = {
             text: "Streamlit"
         },
         {
-            id: "skills-5",
+            id: "skills-2",
             className: "skill-icon",
-            icon: <SiSqlite size={30}/>,
-            text: "Sqlite"
+            icon: <SiPlotly size={30}/>,
+            text: "Plotly"
         }
     ],
     complementarySkills: [
@@ -125,13 +127,13 @@ const skillsConfig = {
             icon: <SiTensorflow size={30}/>,
             text: "TensorFlow"
         }
-        // ,
-        // {
-        //     id: "skills-11",
-        //     className: "skill-icon",
-        //     icon: <SiCss3 size={30}/>,
-        //     text: "CSS 3"
-        // },
+        ,
+        {
+            id: "skills-11",
+            className: "skill-icon",
+            icon: <SiPytorch size={30}/>,
+            text: "PyTorch"
+        },
         // {
         //     id: "skills-12",
         //     className: "skill-icon",
